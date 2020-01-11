@@ -47,7 +47,7 @@ In order to achieve these goals a number of steps were taken. Preliminary examin
 
 ### Data preparation and overview
 
-The dataset was downloaded from Kaggle and is made available at     https://raw.githubusercontent.com/rtlawton/African-recession/master/africa_recession.csv
+The dataset was downloaded from Kaggle and is made available at     https://raw.githubusercontent.com/rtlawton/African-recessions/master/africa_recession.csv
 
 There are no missing entries. The result column "growthbucket" was converted to a two factor column, "recession" (positive result) and "growth".
 

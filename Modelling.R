@@ -9,10 +9,10 @@ if(!require(kableExtra)) installed.packages("kableExtra", repos = "http://cran.u
 # read data from git repository
 
 africa_recession <- read_csv(
-  "https://raw.githubusercontent.com/rtlawton/African-recession/master/africa_recession.csv",
+  "https://raw.githubusercontent.com/rtlawton/African-recessions/master/africa_recession.csv",
   col_types = cols(growthbucket = col_integer()))
 variable_def <- read_csv(
-  "https://raw.githubusercontent.com/rtlawton/African-recession/master/VariableDefinitions.csv")
+  "https://raw.githubusercontent.com/rtlawton/African-recessions/master/VariableDefinitions.csv")
 
 # check for missing values
 
